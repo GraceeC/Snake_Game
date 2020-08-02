@@ -1,34 +1,45 @@
-/* * {
-    background-color:lavender;
-    } */
-    /* Heading */
-     #heading{
-        text-align:center;
-        border-color:white;
-        border-style: solid;
-        border-width: 5px;
-    }
-    /* Border for game*/
-      #myCanvas{
-       padding: 0;
-       margin: auto;
-       display: block;
-       width: 500px;
-       height: 300px;
-       position: absolute;
-       top: 0;
-       bottom: 0;
-       left: 0;
-       right: 0;
-        border: 1px; 
-        border-style: solid; 
-      }
-    /* Apple Eaten & Wins */
-    h2{
-        text-align: center;
-    }
-    .square {
-        height: 20px;
-        width: 10px;
-        background-color: #555;
-    }
+* {
+  background-color:grey;
+  font-family: 'Raleway', sans-serif;
+  
+  }
+  /* Heading */
+   #heading{
+      text-align:center;
+      border-style: solid;
+      border: 3px; 
+      color: yellow;    
+  }
+  /* Border for game*/
+    #my-canvas{
+     padding: 0;
+     margin: auto;
+     display: block;
+     width: 500px;
+     height: 300px;
+     position: absolute;
+     top: 0;
+     bottom: 0;
+     left: 0;
+     right: 0;
+      border: 3px; 
+      border-style: solid; 
+      background-color: lightgray;
+      border-color:green;
+    } 
+  /* Apple Eaten & Wins */
+  h1{
+      text-align: center;
+      border: 3px; 
+      border-style: solid; 
+  }
+  #score{
+      padding-top: 13em;
+      text-align: center;
+      font-size: 25px;
+      /* This below nees to be removed */
+      border: 3px; 
+      border-style: solid; 
+      border-color: red;
+
+  }
