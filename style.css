@@ -6,13 +6,12 @@
     /* Heading */
      #heading{
         text-align:center;
+        border-style: solid;
         border: 3px; 
-        border-style: solid; 
-        border-color: yellow;
-        
+        color: yellow;    
     }
     /* Border for game*/
-      #myCanvas{
+      #my-canvas{
        padding: 0;
        margin: auto;
        display: block;
@@ -29,15 +28,8 @@
         border-color:green;
       } 
     /* Apple Eaten & Wins */
-    h2{
+    h1{
         text-align: center;
-        border: 3px; 
-        border-style: solid; 
-    }
-    .square {
-        height: 20px;
-        width: 10px;
-        background-color: #555;
         border: 3px; 
         border-style: solid; 
     }

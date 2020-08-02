@@ -13,7 +13,7 @@
 // canvasText();
 //snake function which is the black sqaure
 function snake() {
-    let canvas = document.getElementById('myCanvas')
+    let canvas = document.getElementById('my-canvas')
     let snake = canvas.getContext('2d');
 
     snake.beginPath();
@@ -22,14 +22,14 @@ function snake() {
 }
 snake();
 
-//apple function which is red square
 function apple() {
-    let canvas = document.getElementById('myCanvas')
+    let canvas = document.getElementById('my-canvas')
     let apple = canvas.getContext('2d');
 
     apple.beginPath();
-    apple.rect(50, 50, 5, 5);
+    apple.rect(30, 10, 5, 5);
     apple.fillStyle ='red';
     apple.fill();
+    
 }
 apple();
