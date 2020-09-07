@@ -10,28 +10,16 @@
         border: 3px; 
         color: yellow;    
     }
-    /* Border for game*/
-      #my-canvas{
-       padding: 0;
-       margin: auto;
-       display: block;
-       width: 500px;
-       height: 300px;
-       position: absolute;
-       top: 0;
-       bottom: 0;
-       left: 0;
-       right: 0;
-        border: 3px; 
-        border-style: solid; 
-        background-color: lightgray;
-        border-color:green;
-      } 
     /* Apple Eaten & Wins */
     h1{
         text-align: center;
         border: 3px; 
         border-style: solid; 
+    }
+    #game-display{
+      text-align: center;
+      margin-top: 10px;
+      font-size: 24px;
     }
     #score{
         padding-top: 13em;
